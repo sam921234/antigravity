@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables (NEVER push this to GitHub)
+.env
+backend/.env
+
+# Virtual environment
+.venv/
+
+# User data (personal data should not be in git)
+data/
+
+# Streamlit credentials
+.streamlit/secrets.toml
